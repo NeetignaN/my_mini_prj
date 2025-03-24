@@ -1,0 +1,112 @@
+.card {
+  background-color: var(--color-bg);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.statusBadge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  background-color: var(--color-bg);
+}
+
+.planning {
+  background-color: var(--color-planning);
+  color: var(--color-planning-text);
+}
+
+.inProgress {
+  background-color: var(--color-in-progress);
+  color: var(--color-in-progress-text);
+}
+
+.review {
+  background-color: var(--color-review);
+  color: var(--color-review-text);
+}
+
+.completed {
+  background-color: var(--color-completed);
+  color: var(--color-completed-text);
+}
+
+.onHold {
+  background-color: var(--color-on-hold);
+  color: var(--color-on-hold-text);
+}
+
+.content {
+  padding: 1.5rem;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.viewLink {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  margin-top: 0.5rem;
+  gap: 0.25rem;
+  transition: color 0.2s;
+}
+
+.viewLink:hover {
+  color: var(--color-primary-dark);
+}

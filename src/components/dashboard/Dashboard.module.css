@@ -1,0 +1,76 @@
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome {
+  margin-bottom: 2rem;
+}
+
+.welcomeTitle {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.welcomeSubtitle {
+  color: var(--color-text-light);
+  font-size: 1rem;
+}
+
+.date {
+  padding: 1rem;
+  background-color: var(--color-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+}
+
+.dateText {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.viewAllLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.viewAllLink:hover {
+  color: var(--color-primary-dark);
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
