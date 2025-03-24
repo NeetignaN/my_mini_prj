@@ -6,7 +6,8 @@
     "title": "Luxury Home Renovation",
     "budget": 50000,
     "status": "In Progress",
-    "requirements": "Modern, Spacious, Eco-friendly"
+    "requirements": "Modern, Spacious, Eco-friendly",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
   },
   {
     "id": 2,
@@ -15,6 +16,7 @@
     "title": "Office Redesign",
     "budget": 30000,
     "status": "Pending",
-    "requirements": "Minimalist, Productivity-focused"
+    "requirements": "Minimalist, Productivity-focused",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
   }
 ]

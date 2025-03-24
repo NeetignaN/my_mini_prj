@@ -23,12 +23,17 @@ const loadData = () => {
     "vendors",
     "products",
     "projects",
+    "messages",
   ];
 
   files.forEach((file) => {
     const filePath = path.join(__dirname, "data", `${file}.json`);
     if (fs.existsSync(filePath)) {
-      data[file] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      // Read the JSON file
+      const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+
+      // Store the data
+      data[file] = jsonData;
     }
   });
 
@@ -36,7 +41,27 @@ const loadData = () => {
 };
 
 const router = jsonServer.router(loadData());
-server.use(router);
+
+// Add custom routes to get related data
+server.get("/api/clients/:id/projects", (req, res) => {
+  const clientId = parseInt(req.params.id);
+  const projects = router.db
+    .get("projects")
+    .filter({ client_id: clientId })
+    .value();
+  res.jsonp(projects);
+});
+
+server.get("/api/designers/:id/projects", (req, res) => {
+  const designerId = parseInt(req.params.id);
+  const projects = router.db
+    .get("projects")
+    .filter({ designer_id: designerId })
+    .value();
+  res.jsonp(projects);
+});
+
+server.use("/api", router);
 
 const PORT = 5000;
 server.listen(PORT, () => {

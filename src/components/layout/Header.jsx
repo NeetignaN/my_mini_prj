@@ -1,15 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
-import logo from "../../assets/images/logo.svg";
 import { FiHome, FiUsers, FiFolder, FiSettings } from "react-icons/fi";
 
+import logo from "../../assets/images/logo.svg";
+
 const Header = () => {
+  const logoUrl = logo;
+
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
         <Link to="/">
-          <img src={logo} alt="Interiora" className={styles.logoImage} />
+          <img src={logoUrl} alt="Interiora" className={styles.logoImage} />
         </Link>
       </div>
 

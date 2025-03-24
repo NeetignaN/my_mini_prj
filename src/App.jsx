@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import Dashboard from "./components/dashboard/Dashboard";
 import Clients from "./components/clients/Clients";
@@ -8,7 +8,7 @@ import Settings from "./components/settings/Settings";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter future={{ v7_startTransition: true }}>
       <Layout>
         <Routes>
           <Route path="/" element={<Dashboard />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="/settings" element={<Settings />} />
         </Routes>
       </Layout>
-    </Router>
+    </BrowserRouter>
   );
 }
 

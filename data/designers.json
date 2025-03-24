@@ -4,13 +4,15 @@
     "name": "Alice Johnson",
     "email": "alice@design.com",
     "phone": "5678901234",
-    "specialization": "Luxury Interiors"
+    "specialization": "Luxury Interiors",
+    "avatar": "https://randomuser.me/api/portraits/women/10.jpg"
   },
   {
     "id": 2,
     "name": "Bob Williams",
     "email": "bob@design.com",
     "phone": "6789012345",
-    "specialization": "Modern Spaces"
+    "specialization": "Modern Spaces",
+    "avatar": "https://randomuser.me/api/portraits/men/11.jpg"
   }
 ]

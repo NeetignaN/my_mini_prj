@@ -5,7 +5,8 @@
     "email": "john@example.com",
     "phone": "1234567890",
     "address": "123 Main St, NY",
-    "preferences": "Modern, Minimalist"
+    "preferences": "Modern, Minimalist",
+    "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
   },
   {
     "id": 2,
@@ -13,6 +14,7 @@
     "email": "jane@example.com",
     "phone": "9876543210",
     "address": "456 Oak St, CA",
-    "preferences": "Classic, Elegant"
+    "preferences": "Classic, Elegant",
+    "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
   }
 ]
