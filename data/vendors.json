@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "ABC Furnishings",
+    "email": "abc@furniture.com",
+    "phone": "8529637410",
+    "company_name": "ABC Furnishings",
+    "services": "Sofas, Tables, Chairs",
+    "location": "New York"
+  },
+  {
+    "id": 2,
+    "name": "XYZ Interiors",
+    "email": "xyz@interiors.com",
+    "phone": "9637412580",
+    "company_name": "XYZ Interiors",
+    "services": "Lighting, Flooring",
+    "location": "Los Angeles"
+  }
+]

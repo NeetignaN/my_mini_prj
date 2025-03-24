@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "from": "client_1",
+    "to": "designer_2",
+    "message": "I would like to discuss my project details."
+  },
+  {
+    "id": 2,
+    "from": "designer_2",
+    "to": "vendor_1",
+    "message": "Can you provide a quote for 3 luxury sofas?"
+  }
+]

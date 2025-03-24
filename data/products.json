@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "vendor_id": 1,
+    "name": "Luxury Sofa",
+    "category": "Furniture",
+    "price": 1200.99,
+    "stock": 10,
+    "description": "Premium velvet-finish sofa.",
+    "image_url": "https://example.com/sofa.jpg"
+  },
+  {
+    "id": 2,
+    "vendor_id": 1,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 850.5,
+    "stock": 5,
+    "description": "Modern dining table with glass top.",
+    "image_url": "https://example.com/dining_table.jpg"
+  },
+  {
+    "id": 3,
+    "vendor_id": 2,
+    "name": "LED Ceiling Light",
+    "category": "Lighting",
+    "price": 150.0,
+    "stock": 20,
+    "description": "Energy-efficient LED ceiling light.",
+    "image_url": "https://example.com/led_light.jpg"
+  }
+]

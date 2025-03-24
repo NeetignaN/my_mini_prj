@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice@design.com",
+    "phone": "5678901234",
+    "specialization": "Luxury Interiors"
+  },
+  {
+    "id": 2,
+    "name": "Bob Williams",
+    "email": "bob@design.com",
+    "phone": "6789012345",
+    "specialization": "Modern Spaces"
+  }
+]

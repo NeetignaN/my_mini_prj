@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "client_id": 1,
+    "designer_id": 2,
+    "title": "Luxury Home Renovation",
+    "budget": 50000,
+    "status": "In Progress",
+    "requirements": "Modern, Spacious, Eco-friendly"
+  },
+  {
+    "id": 2,
+    "client_id": 2,
+    "designer_id": 1,
+    "title": "Office Redesign",
+    "budget": 30000,
+    "status": "Pending",
+    "requirements": "Minimalist, Productivity-focused"
+  }
+]

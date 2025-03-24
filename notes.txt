@@ -1,0 +1,49 @@
+📌 Example API Requests
+➡ Get all designers:
+GET http://localhost:5000/designers
+
+➡ Get all projects:
+GET http://localhost:5000/projects
+
+➡ Get all products of a vendor (Vendor ID: 1):
+GET http://localhost:5000/products?vendor_id=1
+
+➡ Add a new project (POST Request in Postman):
+
+POST http://localhost:5000/projects
+{
+  "client_id": 2,
+  "designer_id": 1,
+  "title": "Luxury Apartment Redesign",
+  "budget": 40000,
+  "status": "Pending",
+  "requirements": "Elegant, Space-efficient"
+}
+
+
+________________________________________________If you want to add more JSON files later, follow these steps:
+
+Steps to Add a New JSON File
+1. Create the New JSON File
+Place your new JSON file inside the data/ folder.
+
+For example, if you want to add a reviews.json file, create data/reviews.json.
+
+2. Update server.js to Include the New File
+Find the following line in server.js:
+
+const files = ["admins", "clients", "designers", "vendors", "products", "projects"];
+Add the new file name (reviews in this case) to the array:
+
+const files = ["admins", "clients", "designers", "vendors", "products", "projects", "reviews"];
+
+3. Restart the Server
+Run the following command to restart the server:
+npm run server
+Your new API endpoint will be available at:
+
+
+http://localhost:5000/reviews
+Once you follow these steps, the server will automatically recognize the new JSON file and expose it as an API endpoint. No other changes are needed.
+
+_______________________________________________________
